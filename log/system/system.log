@@ -1,0 +1,66 @@
+[2018-10-01T14:37:11.836] [ERROR] system - sample
+[2018-10-02T00:04:19.217] [ERROR] system - /Users/ICHI/Desktop/weblog/views/posts/index.ejs:19
+    17| 
+    18|       <div class="border-bottom mt-5 mb-5">
+ >> 19|         <h1><%= title %></h1>
+    20|       </div>
+    21| 
+    22|       <dl>
+
+title is not defined
+[2018-10-02T00:04:41.253] [ERROR] system - /Users/ICHI/Desktop/weblog/views/posts/index.ejs:24
+    22|       <dl>
+    23|         <dt class='col-3'>公開日：</dt>
+ >> 24|         <dd class='col-9'><%= published.toLocalseString() %></dd>
+    25|         <dt class='col-3'>著者：</dt>
+    26|         <dd class='col-9'><%= authors %></dd>
+    27|         <dt class='col-3'>キーワード：</dt>
+
+published.toLocalseString is not a function
+[2018-10-02T13:53:28.956] [ERROR] system - /Users/ICHI/Desktop/weblog/views/search/list.ejs:36
+    34|       <nav>
+    35|         <ul class="pagination">
+ >> 36|           <% for (i = 1; i <= pagination.max; i++) { %>
+    37|             <% if (pagination.current !== i) { %>
+    38|             <li class="page-item"><a class="page-link" href="/search/?keyword=<%= keyword %>&page=<%= i %>"><%= i %></a></li>
+    39|             <% } else { %>
+
+pagination is not defined
+[2018-10-02T13:53:58.531] [ERROR] system - /Users/ICHI/Desktop/weblog/views/search/list.ejs:36
+    34|       <nav>
+    35|         <ul class="pagination">
+ >> 36|           <% for (i = 1; i <= pagination.max; i++) { %>
+    37|             <% if (pagination.current !== i) { %>
+    38|             <li class="page-item"><a class="page-link" href="/search/?keyword=<%= keyword %>&page=<%= i %>"><%= i %></a></li>
+    39|             <% } else { %>
+
+pagination is not defined
+[2018-10-02T17:20:22.303] [ERROR] system - /Users/ICHI/Desktop/weblog/views/posts/index.ejs:19
+    17| 
+    18|       <div class="border-bottom mt-5 mb-5">
+ >> 19|         <h1><%= title %></h1>
+    20|       </div>
+    21| 
+    22|       <dl>
+
+title is not defined
+[2018-10-02T17:20:52.113] [ERROR] system - /Users/ICHI/Desktop/weblog/views/posts/index.ejs:19
+    17| 
+    18|       <div class="border-bottom mt-5 mb-5">
+ >> 19|         <h1><%= title %></h1>
+    20|       </div>
+    21| 
+    22|       <dl>
+
+title is not defined
+[2018-10-03T00:19:45.324] [ERROR] system - Cannot set headers after they are sent to the client
+[2018-10-03T01:35:06.565] [ERROR] system - Cannot read property '_csrf' of undefined
+[2018-10-03T01:35:58.368] [ERROR] system - Cannot read property '_csrf' of undefined
+[2018-10-03T01:36:02.680] [ERROR] system - Cannot read property '_csrf' of undefined
+[2018-10-03T01:36:51.144] [ERROR] system - Cannot read property '_csrf' of undefined
+[2018-10-03T01:37:05.303] [ERROR] system - Cannot read property '_csrf' of undefined
+[2018-10-03T01:38:15.138] [ERROR] system - Invalid Token.
+[2018-10-03T01:39:42.690] [ERROR] system - Invalid Token.
+[2018-10-05T13:23:04.486] [ERROR] system - Invalid Token.
+[2018-10-05T15:04:05.859] [ERROR] system - fone is not defined
+[2018-10-05T15:05:39.899] [ERROR] system - fone is not defined

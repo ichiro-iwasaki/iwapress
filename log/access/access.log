@@ -1,0 +1,4 @@
+[2018-10-06T00:15:35.767] [WARN] access - ::1 - - "GET / HTTP/1.1" 304 - "http://localhost:3000/account/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+[2018-10-06T00:15:49.119] [ERROR] access - ::1 - - "GET /fsafdsafd HTTP/1.1" 404 1695 "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+[2018-10-06T16:14:40.417] [WARN] access - ::1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+[2018-10-06T16:14:40.692] [ERROR] access - ::1 - - "GET /favicon.ico HTTP/1.1" 404 1697 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
